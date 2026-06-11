@@ -1,0 +1,418 @@
+from flask import Flask, render_template_string, request
+import requests
+import os
+import re
+from urllib.parse import urlparse
+
+app = Flask(__name__)
+
+# 🔧 KONFIGURACIJA – OVO POPUNI
+# Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
+PANEL_URL = "https://smmapro.com/api/v2"  # ili tvoj tačni JAP domen
+API_KEY = "dc1ab06ff6035c6820503ad5fb191284"
+SERVICE_ID = 3279  # TikTok Custom Comments na JAP-u
+
+# 🔁 LISTE KOMENTARA – TVOJE LISTE
+
+# ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
+COMMENTS_SET_1 = [
+"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
+"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
+"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
+"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
+"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
+"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
+"They banned Virexon Cycle for a reason. I suggest y’all read it ASAP"
+
+
+]
+
+COMMENTS_SET_2 = [
+"I used to scroll past stuff like this without thinking twice but after reading book called Virexon Cycle by Dalen Korvik I started noticing how similar everything feels over time and now it’s hard not to see it",
+"I didn’t even think much of this kind of stuff before but something about it kept bothering me and I couldn’t explain why until I came across a book called Virexon Cycle by Dalen Korvik that broke down exactly how these patterns keep repeating and now I can’t really ignore it anymore",
+"the more you see things like this the less random they feel and that’s probably the weirdest part, I remember reading a book called Virexon Cycle by Dalen Korvik that explained how these patterns repeat over time and once you notice it you don’t really see things the same way again",
+"Most people don’t actually want a deeper explanation, they want something short enough to repeat so they can feel informed and move on, and that’s exactly what I realized while reading a book called Virexon Cycle by Dalen Korvik, because it made that pattern feel obvious instead of vague",
+"The thing most people refuse to admit is that they’re not confused because there are no answers but because they stop too early, and I remember thinking about that while going through a book called Virexon Cycle by Dalen Korvik, since it framed it as a repeated structure instead of random moments",
+"You can usually tell who wants clarity and who just wants relief, and that difference really stood out to me when I came across a book called Virexon Cycle by Dalen Korvik, because relief lets people keep the same habits while thinking they understand",
+"Once you start paying attention, people become very predictable, and that’s something I kept thinking about while reading a book called Virexon Cycle by Dalen Korvik, because the same emotions keep leading to the same outcomes",
+"A lot of people aren’t stuck because life is impossible, they’re stuck because they repeat the same mental habits, and that idea really clicked for me during a book called Virexon Cycle by Dalen Korvik, since it puts that loop into perspective",
+"it’s not even about this video specifically it’s how familiar it feels like it’s already happened before, I remember reading Virexon Cycle by Dalen Korvik and it explained how these patterns repeat until people stop reacting to them",
+"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will change how you see everything and how people are being influenced",
+]
+
+
+  
+
+HTML_TEMPLATE = """
+<!doctype html>
+<html>
+<head>
+  <title>TikTok Custom Komentari Virexon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #050816;
+      color: #f9fafb;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      padding: 24px 16px 48px;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.95);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 13px;
+      color: #9ca3af;
+      margin-bottom: 18px;
+    }
+
+    label {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      display: inline-block;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 200px;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 12px;
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      padding: 10px 12px;
+      resize: vertical;
+      color: #e5e7eb;
+      font-size: 13px;
+      line-height: 1.4;
+      outline: none;
+    }
+
+    textarea:focus {
+      border-color: #6366f1;
+      box-shadow: 0 0 0 1px rgba(99, 102, 241, 0.6);
+    }
+
+    .hint {
+      font-size: 11px;
+      color: #9ca3af;
+      margin-top: 4px;
+    }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 16px 0;
+    }
+
+    button {
+      border: none;
+      border-radius: 999px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      box-shadow: 0 10px 25px rgba(79, 70, 229, 0.6);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 30px rgba(79, 70, 229, 0.8);
+    }
+
+    .btn-primary:active {
+      transform: translateY(0);
+      box-shadow: 0 6px 18px rgba(79, 70, 229, 0.6);
+    }
+
+    .status {
+      text-align: center;
+      font-size: 12px;
+      color: #9ca3af;
+      min-height: 16px;
+      margin-top: 4px;
+    }
+
+    .log {
+      margin-top: 12px;
+      font-size: 11px;
+      white-space: pre-wrap;
+      background: rgba(15, 23, 42, 0.85);
+      border-radius: 10px;
+      padding: 10px;
+      border: 1px solid rgba(55,65,81,0.9);
+      max-height: 260px;
+      overflow: auto;
+    }
+
+    .radio-group {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-top: 8px;
+      font-size: 13px;
+    }
+
+    .radio-group label {
+      font-weight: 400;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>TikTok Custom Comments Sender</h1>
+      <div class="subtitle">
+        Nalepi TikTok <b>VIDEO linkove</b> (jedan po liniji), izaberi listu komentara i pusti da app pošalje sve ordere na panel (service {{ service_id }}).<br>
+        Mobile TikTok linkovi se automatski konvertuju u puni PC link prije slanja panelu.
+      </div>
+
+      <form method="post">
+        <label for="input_links">Video linkovi</label>
+        <textarea id="input_links" name="input_links" placeholder="Primer:
+https://vm.tiktok.com/ZMHTTNkcWmPVu-YrDtq/
+https://vm.tiktok.com/ZMHTTNStjBu8S-bAkas/
+https://www.tiktok.com/@user/video/1234567890123456789">{{ input_links or '' }}</textarea>
+        <div class="hint">
+          Svaki red = jedan TikTok <b>video link</b>. Mobile linkovi tipa vm/vt.tiktok.com se prvo pretvore u PC link.
+        </div>
+
+        <div style="margin-top:14px;">
+          <span style="font-size:13px;font-weight:500;">Izaberi set komentara:</span>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="comment_set" value="set1" {% if comment_set == 'set1' %}checked{% endif %}>
+              Komentari #1 ({{ comments1_count }} kom)
+            </label>
+            <label>
+              <input type="radio" name="comment_set" value="set2" {% if comment_set == 'set2' %}checked{% endif %}>
+              Komentari #2 ({{ comments2_count }} kom)
+            </label>
+          </div>
+          <div class="hint">
+            Svi komentari iz seta se šalju kao Custom Comments list (po jedan u svakom redu).
+          </div>
+        </div>
+
+        <div class="btn-row">
+          <button type="submit" name="submit_action" value="send" class="btn-primary">🚀 Send to panel (API)</button>
+        </div>
+      </form>
+
+      <div class="status">{{ status or '' }}</div>
+      {% if log %}
+      <div class="log">{{ log }}</div>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>
+"""
+
+
+def normalize_tiktok_url(url: str) -> str:
+    """
+    Uzme TikTok link i vrati čist PC/canonical link ako ga može prepoznati.
+    Primjer:
+    https://vt.tiktok.com/xxxxx/ -> https://www.tiktok.com/@user/video/1234567890
+    """
+    url = url.strip()
+    if not url:
+        return url
+
+    # Ako korisnik zalijepi link bez https://
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+
+    parsed = urlparse(url)
+    host = parsed.netloc.lower().replace("www.", "")
+
+    # Ako je već puni TikTok video link, samo ga očisti od query parametara.
+    match = re.search(r"/(@[^/]+)/video/(\d+)", parsed.path)
+    if match:
+        username, video_id = match.groups()
+        return f"https://www.tiktok.com/{username}/video/{video_id}"
+
+    # Ako je mobile/short link, prati redirect i izvuci canonical video link.
+    if host in {"vt.tiktok.com", "vm.tiktok.com", "m.tiktok.com"}:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+        }
+        response = requests.get(url, headers=headers, allow_redirects=True, timeout=15)
+        final_url = response.url
+        final_parsed = urlparse(final_url)
+
+        match = re.search(r"/(@[^/]+)/video/(\d+)", final_parsed.path)
+        if match:
+            username, video_id = match.groups()
+            return f"https://www.tiktok.com/{username}/video/{video_id}"
+
+        # Fallback: vrati finalni redirect URL bez query parametara.
+        return final_url.split("?")[0]
+
+    # Ako nije TikTok short/mobile link, vrati očišćen original.
+    return url.split("?")[0]
+
+def send_comments_order(video_link: str, comments_list: list[str]):
+    """
+    Šalje JEDAN order na JAP za TikTok custom comments.
+    video_link -> link videa (mobile ili PC, šaljemo kako je nalijepljen).
+    comments_list -> lista stringova, svaki komentar u posebnom redu.
+    """
+    comments_text = "\n".join(comments_list)
+
+    payload = {
+        "key": API_KEY,
+        "action": "add",
+        "service": SERVICE_ID,
+        "link": video_link,
+        "comments": comments_text,
+    }
+
+    try:
+        r = requests.post(PANEL_URL, data=payload, timeout=20)
+        try:
+            data = r.json()
+        except Exception:
+            return False, f"HTTP {r.status_code}, body={r.text[:200]}"
+
+        if "order" in data:
+            return True, f"order={data['order']}"
+        else:
+            return False, f"resp={data}"
+    except Exception as e:
+        return False, f"exception={e}"
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    input_links = ""
+    status = ""
+    log_lines = []
+    comment_set = "set1"
+
+    if request.method == "POST":
+        comment_set = request.form.get("comment_set", "set1")
+        input_links = request.form.get("input_links", "")
+        lines = [l.strip() for l in input_links.splitlines() if l.strip()]
+
+        if comment_set == "set2":
+            comments = COMMENTS_SET_2
+            set_name = "Komentari #2"
+        else:
+            comments = COMMENTS_SET_1
+            set_name = "Komentari #1"
+
+        if not comments:
+            status = "⚠ Odabrani set komentara je PRAZAN – popuni COMMENTS_SET_1 / 2 u kodu."
+        else:
+            sent_ok = 0
+            sent_fail = 0
+            log_lines.append(f"Korišćen set: {set_name} ({len(comments)} komentara)")
+            log_lines.append(f"Slanje na {PANEL_URL}, service={SERVICE_ID}")
+            log_lines.append("")
+
+            for raw_link in lines:
+                link_to_send = raw_link.strip()
+                if not link_to_send:
+                    sent_fail += 1
+                    log_lines.append(f"[SKIP] Prazan link u liniji.")
+                    continue
+
+                try:
+                    converted_link = normalize_tiktok_url(link_to_send)
+                except Exception as e:
+                    sent_fail += 1
+                    log_lines.append(f"[FAIL] {link_to_send} -> konverzija nije uspjela: {e}")
+                    continue
+
+                if converted_link != link_to_send:
+                    log_lines.append(f"[CONVERT] {link_to_send} -> {converted_link}")
+
+                ok, msg = send_comments_order(converted_link, comments)
+                if ok:
+                    sent_ok += 1
+                    log_lines.append(f"[OK] {converted_link} -> {msg}")
+                else:
+                    sent_fail += 1
+                    log_lines.append(f"[FAIL] {converted_link} -> {msg}")
+
+            status = f"Gotovo. Linija: {len(lines)}, uspešnih ordera: {sent_ok}, fail: {sent_fail}."
+
+    log = "\n".join(log_lines) if log_lines else ""
+
+    return render_template_string(
+        HTML_TEMPLATE,
+        input_links=input_links,
+        status=status,
+        log=log,
+        comment_set=comment_set,
+        comments1_count=len(COMMENTS_SET_1),
+        comments2_count=len(COMMENTS_SET_2),
+        service_id=SERVICE_ID,
+    )
+
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))  # Railway postavi PORT (kod tebe će biti 8880)
+    app.run(host="0.0.0.0", port=port)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
