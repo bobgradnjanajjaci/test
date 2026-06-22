@@ -16,17 +16,17 @@ SERVICE_ID = 3279  # TikTok Custom Comments na JAP-u
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
-"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
-"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
-"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
-"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
-"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle by Dalen Korvik did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
-"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
-"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
-"They banned Virexon Cycle by Dalen Korvik for a reason. I suggest y’all read it ASAP"
+"Find the book The Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about The Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. The Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called The Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
+"The Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: The Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
+"Plot twist – You seeing this comment about The Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
+"No influencer, no coach, no 'guru' ever hit me the way The Virexon Cycle by Dalen Korvik did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
+"If you read only one book this year, let it be The Virexon Cycle by Dalen Korvik. It will transform your life.",
+"I'm telling you, a book called The Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
+"They banned The Virexon Cycle by Dalen Korvik for a reason. I suggest y’all read it ASAP"
 
 
 ]
