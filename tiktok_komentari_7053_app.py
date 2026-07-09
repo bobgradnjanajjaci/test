@@ -16,17 +16,16 @@ SERVICE_ID = 3279  # TikTok Custom Comments na JAP-u
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"Find the book The Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
-"Why is no one talking about The Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
-"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. The Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called The Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
-"The Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: The Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
-"Plot twist – You seeing this comment about The Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
-"No influencer, no coach, no 'guru' ever hit me the way The Virexon Cycle by Dalen Korvik did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
-"If you read only one book this year, let it be The Virexon Cycle by Dalen Korvik. It will transform your life.",
-"I'm telling you, a book called The Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
-"They banned The Virexon Cycle by Dalen Korvik for a reason. I suggest y’all read it ASAP"
+"I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
+"Before Luvoron, I had no idea how to build an online business. After finishing the course, I launched my first online business and started making money online. It gave me the confidence and practical skills I needed to get started.",
+"I completed the Luvoron course, launched my first online business, and started earning money online. The course helped me understand how to actually use AI to build something real instead of just experimenting with different tools.",
+"I can’t say it happened overnight, but Luvoron gave me the foundation I needed to launch my first online business. After putting what I learned into practice, I started earning money online.",
+"I came across Luvoron while looking for AI resources online, and I’m genuinely glad I did. The content was practical, easy to follow, and gave me the confidence to launch my first online business. It feels like one of those hidden gems that deserves a lot more attention.",
+"I don’t usually recommend courses, but Luvoron was different. The lessons are practical, beginner-friendly, and focused on real-world skills. After finishing it, I launched my first online business and started earning money online.",
+"Most people only show the results, not the process. Luvoron is one of the few resources I’ve found that actually explains the process step by step.",
+"If you’ve been trying to figure out how people are actually using AI to build things online, Luvoron is worth checking out.",
+"Most people focus on AI tools. Luvoron focuses on how to actually use them. That was the biggest difference for me.",
+"I genuinely think more people should know about Luvoron. It teaches practical skills that are actually useful, especially if you’re just getting started with AI.",
 
 
 ]
