@@ -17,14 +17,14 @@ SERVICE_ID = 3279  # TikTok Custom Comments na JAP-u
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
 "I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
-"Before Luvoron, I had no idea how to build an online business. After finishing the course, I launched my first online business and started making money online. It gave me the confidence and practical skills I needed to get started.",
+"I spent so much time searching the internet for something that could actually change my life. I can honestly say I finally found it. The Luvoron program is a complete game changer. The amount of practical AI strategies, workflows, and real information inside is unlike anything I've seen before. It completely changed the way I think about using AI.",
 "I completed the Luvoron course, launched my first online business, and started earning money online. The course helped me understand how to actually use AI to build something real instead of just experimenting with different tools.",
 "I can’t say it happened overnight, but Luvoron gave me the foundation I needed to launch my first online business. After putting what I learned into practice, I started earning money online.",
 "I came across Luvoron while looking for AI resources online, and I’m genuinely glad I did. The content was practical, easy to follow, and gave me the confidence to launch my first online business. It feels like one of those hidden gems that deserves a lot more attention.",
 "I don’t usually recommend courses, but Luvoron was different. The lessons are practical, beginner-friendly, and focused on real-world skills. After finishing it, I launched my first online business and started earning money online.",
-"Most people only show the results, not the process. Luvoron is one of the few resources I’ve found that actually explains the process step by step.",
-"If you’ve been trying to figure out how people are actually using AI to build things online, Luvoron is worth checking out.",
-"Most people focus on AI tools. Luvoron focuses on how to actually use them. That was the biggest difference for me.",
+"It's honestly crazy how many people still aren't making money with AI. I don't think most people realize we're living in a time where it's easier than ever to build something online and automate so much of the work. Luvoron helped me understand what actually matters. I couldn't believe that a tool everyone has access to could make such a huge difference once you know how to use it properly.",
+"I honestly think I know what the next platform is that's going to change the future of AI and making money online, just like Claude did for AI assistants. I genuinely believe it's going to be Luvoron. I still can't believe something like this is available to everyone.",
+"My mom used AI for nothing more than finding cooking recipes. Now she's built a small side hustle with AI and automated part of her online business. The program she used is called Luvoron, and I honestly can't believe more people aren't talking about it.",
 "I genuinely think more people should know about Luvoron. It teaches practical skills that are actually useful, especially if you’re just getting started with AI.",
 
 
