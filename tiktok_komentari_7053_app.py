@@ -31,16 +31,17 @@ COMMENTS_SET_1 = [
 ]
 
 COMMENTS_SET_2 = [
-"I used to scroll past stuff like this without thinking twice but after reading book called Virexon Cycle by Dalen Korvik I started noticing how similar everything feels over time and now it’s hard not to see it",
-"I didn’t even think much of this kind of stuff before but something about it kept bothering me and I couldn’t explain why until I came across a book called Virexon Cycle by Dalen Korvik that broke down exactly how these patterns keep repeating and now I can’t really ignore it anymore",
-"the more you see things like this the less random they feel and that’s probably the weirdest part, I remember reading a book called Virexon Cycle by Dalen Korvik that explained how these patterns repeat over time and once you notice it you don’t really see things the same way again",
-"Most people don’t actually want a deeper explanation, they want something short enough to repeat so they can feel informed and move on, and that’s exactly what I realized while reading a book called Virexon Cycle by Dalen Korvik, because it made that pattern feel obvious instead of vague",
-"The thing most people refuse to admit is that they’re not confused because there are no answers but because they stop too early, and I remember thinking about that while going through a book called Virexon Cycle by Dalen Korvik, since it framed it as a repeated structure instead of random moments",
-"You can usually tell who wants clarity and who just wants relief, and that difference really stood out to me when I came across a book called Virexon Cycle by Dalen Korvik, because relief lets people keep the same habits while thinking they understand",
-"Once you start paying attention, people become very predictable, and that’s something I kept thinking about while reading a book called Virexon Cycle by Dalen Korvik, because the same emotions keep leading to the same outcomes",
-"A lot of people aren’t stuck because life is impossible, they’re stuck because they repeat the same mental habits, and that idea really clicked for me during a book called Virexon Cycle by Dalen Korvik, since it puts that loop into perspective",
-"it’s not even about this video specifically it’s how familiar it feels like it’s already happened before, I remember reading Virexon Cycle by Dalen Korvik and it explained how these patterns repeat until people stop reacting to them",
-"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will change how you see everything and how people are being influenced",
+"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
+"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
+"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
+"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
+"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
+"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
+"They banned Virexon Cycle for a reason. I suggest y’all read it ASAP",
 ]
 
 
