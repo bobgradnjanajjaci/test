@@ -9,7 +9,7 @@ app = Flask(__name__)
 # 🔧 KONFIGURACIJA – OVO POPUNI
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
 PANEL_URL = "https://smmapro.com/api/v2"  # ili tvoj tačni JAP domen
-API_KEY = "dc1ab06ff6035c6820503ad5fb191284"
+API_KEY = "9fc73cc260dfcbe00318a1e77150a085"
 SERVICE_ID = 3279
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
