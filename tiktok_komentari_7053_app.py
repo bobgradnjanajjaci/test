@@ -8,14 +8,27 @@ app = Flask(__name__)
 
 # 🔧 KONFIGURACIJA – OVO POPUNI
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
-PANEL_URL = "https://topsfollows.com/api/v2"  # ili tvoj tačni JAP domen
-API_KEY = "a18e77bdd594882885b446e3f53c0ee8"
-SERVICE_ID = 3751
+PANEL_URL = "https://smmapro.com/api/v2"  # ili tvoj tačni JAP domen
+API_KEY = "dc1ab06ff6035c6820503ad5fb191284"
+SERVICE_ID = 3279
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
+"The more you research Virexon Cycle by Dalen Korvik, the stranger it gets but fr.",
+"The story behind Virexon Cycle by Dalen Korvik is stranger than most people think",
+"No guru explained things like Virexon Cycle by Dalen Korvik did",
+"If you want to read one book this year, let it be: Virexon Cycle by Dalen Korvik",
+"Virexon Cycle by Dalen Korvik is on another level. Just read it.",
+"Just find Virexon Cycle by Dalen Korvik and thank me later.",
+"The more you research Virexon Cycle by Dalen Korvik, the stranger it gets but fr.",
+"The story behind Virexon Cycle by Dalen Korvik is stranger than most people think",
+"No guru explained things like Virexon Cycle by Dalen Korvik did",
+"If you want to read one book this year, let it be: Virexon Cycle by Dalen Korvik",
+]
+
+COMMENTS_SET_2 = [
 "I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
 "I spent so much time searching the internet for something that could actually change my life. I can honestly say I finally found it. The Luvoron program is a complete game changer. The amount of practical AI strategies, workflows, and real information inside is unlike anything I've seen before. It completely changed the way I think about using AI.",
 "I completed the Luvoron course, launched my first online business, and started earning money online. The course helped me understand how to actually use AI to build something real instead of just experimenting with different tools.",
@@ -27,21 +40,6 @@ COMMENTS_SET_1 = [
 "Before Luvoron, I had no idea how to build an online business. After finishing the course, I launched my first online business and started making money online. It gave me the confidence and practical skills I needed to get started.",
 "I genuinely think more people should know about Luvoron. It teaches practical skills that are actually useful, especially if you’re just getting started with AI.",
 
-
-]
-
-COMMENTS_SET_2 = [
-"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
-"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
-"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
-"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
-"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
-"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
-"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
-"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
-"They banned Virexon Cycle for a reason. I suggest y’all read it ASAP",
 ]
 
 
