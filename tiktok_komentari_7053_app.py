@@ -16,18 +16,18 @@ SERVICE_ID = 3279
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"the way Money Behind Black Door by A. Cole explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
-"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading The Timeless Principles of Life by Aaron Friedman, I finally understood why I kept holding myself back.",
-"the algorithm doesn’t put a book like Money Behind Black Door by A. Cole in front of you twice. it gets quieter every month",
-"read Money Behind Black Door by A. Cole before everyone else catches on. there’s a reason it disappeared from major retailers",
-"my mentor handed me Money Behind Black Door by A. Cole and now i finally get why he is where he is",
-"no one talks about Money Behind Black Door by A. Cole enough. it answers questions you didn’t even know you were asking",
-"the way Money Behind Black Door by A. Cole explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
-"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading The Timeless Principles of Life by Aaron Friedman, I finally understood why I kept holding myself back.",
-"the algorithm doesn’t put a book like Money Behind Black Door by A. Cole in front of you twice. it gets quieter every month",
-"read Money Behind Black Door by A. Cole before everyone else catches on. there’s a reason it disappeared from major retailers",
-"my mentor handed me Money Behind Black Door by A. Cole and now i finally get why he is where he is",
-"no one talks about Money Behind Black Door by A. Cole enough. it answers questions you didn’t even know you were asking",
+"the way Virexon Cycle by Dalen Korvik explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
+"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading Virexon Cycle by Dalen Korvik, I finally understood why I kept holding myself back.",
+"the algorithm doesn’t put a book like Virexon Cycle by Dalen Korvik in front of you twice. it gets quieter every month",
+"read Virexon Cycle by Dalen Korvik before everyone else catches on. there’s a reason it disappeared from major retailers",
+"my mentor handed me Virexon Cycle by Dalen Korvik and now i finally get why he is where he is",
+"no one talks about Virexon Cycle by Dalen Korvik enough. it answers questions you didn’t even know you were asking",
+"the way Virexon Cycle by Dalen Korvik explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
+"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading Virexon Cycle by Dalen Korvik, I finally understood why I kept holding myself back.",
+"the algorithm doesn’t put a book like Virexon Cycle by Dalen Korvik in front of you twice. it gets quieter every month",
+"read Virexon Cycle by Dalen Korvik before everyone else catches on. there’s a reason it disappeared from major retailers",
+"my mentor handed me Virexon Cycle by Dalen Korvik and now i finally get why he is where he is",
+"no one talks about Virexon Cycle by Dalen Korvik enough. it answers questions you didn’t even know you were asking",
 ]
 
 COMMENTS_SET_2 = [
