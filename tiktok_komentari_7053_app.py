@@ -16,18 +16,17 @@ SERVICE_ID = 4010
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"the way Virexon Cycle by Dalen Korvik explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
-"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading Virexon Cycle by Dalen Korvik, I finally understood why I kept holding myself back.",
-"the algorithm doesn’t put a book like Virexon Cycle by Dalen Korvik in front of you twice. it gets quieter every month",
-"read Virexon Cycle by Dalen Korvik before everyone else catches on. there’s a reason it disappeared from major retailers",
-"my mentor handed me Virexon Cycle by Dalen Korvik and now i finally get why he is where he is",
-"no one talks about Virexon Cycle by Dalen Korvik enough. it answers questions you didn’t even know you were asking",
-"the way Virexon Cycle by Dalen Korvik explains hidden financial patterns without making them overly complicated really impressed me. it feels practical instead of theoretical",
-"I spent years repeating the same patterns without realizing it, and the hardest part is that I thought they were just part of who I was. After reading Virexon Cycle by Dalen Korvik, I finally understood why I kept holding myself back.",
-"the algorithm doesn’t put a book like Virexon Cycle by Dalen Korvik in front of you twice. it gets quieter every month",
-"read Virexon Cycle by Dalen Korvik before everyone else catches on. there’s a reason it disappeared from major retailers",
-"my mentor handed me Virexon Cycle by Dalen Korvik and now i finally get why he is where he is",
-"no one talks about Virexon Cycle by Dalen Korvik enough. it answers questions you didn’t even know you were asking",
+"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
+"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
+"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
+"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
+"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
+"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
+"They banned Virexon Cycle for a reason. I suggest y’all read it ASAP"
 ]
 
 COMMENTS_SET_2 = [
