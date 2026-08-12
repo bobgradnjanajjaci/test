@@ -16,17 +16,16 @@ SERVICE_ID = 4010
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"Find the book Virexon Cycle by Dalen Korvik. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
-"Why is no one talking about Virexon Cycle by Dalen Korvik? This book messed with my whole perception of money and actually how are we getting controlled",
-"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Virexon Cycle by Dalen Korvik is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Virexon Cycle by Dalen Korvik. It helped me succeed and start making money, ngl everyone should read it.",
-"Virexon Cycle by Dalen Korvik is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Virexon Cycle by Dalen Korvik. Ngl, insane hidden information there.",
-"Plot twist – You seeing this comment about Virexon Cycle by Dalen Korvik isn’t random – Nothing is",
-"No influencer, no coach, no 'guru' ever hit me the way Virexon Cycle did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
-"If you read only one book this year, let it be Virexon Cycle by Dalen Korvik. It will transform your life.",
-"I'm telling you, a book called Virexon Cycle by Dalen Korvik is on another level. You HAVE to experience it. It will change your life",
-"They banned Virexon Cycle for a reason. I suggest y’all read it ASAP"
+"There’s this guy Mael Vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
+"Why is no one talking about Mael Vorran? This author made a book who actually messed with my whole perception of money and actually how are we getting controlled",
+"There’s this guy Mael Vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
+"There’s this guy Mael Vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about the simulation, 2033 and the laws of this reality are totally insane. ",
+"Mael Vorran is the only author that actually made me feel dangerous. Book The Future they Planned, Page 13 is not normal.",
+"There’s this guy Mael Vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
+"There’s this guy Mael Vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
+"There’s this guy Mael Vorran claiming the future leaves visible patterns, and the fact he recognized certain shifts early is unsettling, but his ideas about manipulating reality are even more insane. ",
+"I'm telling you, author Mael Vorran is a guy on another level. You HAVE to experience his book called The Future They Planned. It will change your life",
+"There’s this guy Mael Vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy."
 ]
 
 COMMENTS_SET_2 = [
