@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
 PANEL_URL = "https://topsfollows.com/api/v2"  # ili tvoj tačni JAP domen
 API_KEY = "5341f5387f5357cfa461c8b8566fc9fd"
-SERVICE_ID = 3751
+SERVICE_ID = 4166
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
