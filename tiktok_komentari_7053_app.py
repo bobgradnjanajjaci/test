@@ -19,13 +19,8 @@ COMMENTS_SET_1 = [
 "There’s this guy Mael Vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
 "Why is no one talking about Mael Vorran? This author made a book who actually messed with my whole perception of money and actually how are we getting controlled.",
 "There’s this guy Mael Vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
-"There’s this guy Mael Vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about the simulation, 2033 and the laws of this reality are totally insane. ",
 "Mael Vorran is the only author that actually made me feel dangerous. Book The Future they Planned, Page 13 is not normal.",
-"There’s this guy Mael Vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
-"There’s this guy Mael Vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
-"There’s this guy Mael Vorran claiming the future leaves visible patterns, and the fact he recognized certain shifts early is unsettling, but his ideas about manipulating reality are even more insane. ",
 "I'm telling you, author Mael Vorran is a guy on another level. You HAVE to experience his book called The Future They Planned. It will change your life",
-"There’s this guy Mael Vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy.",
 ]
 
 COMMENTS_SET_2 = [
