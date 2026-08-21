@@ -20,8 +20,14 @@ COMMENTS_SET_1 = [
 "Why is no one talking about Mael Vorran? This author made a book who actually messed with my whole perception of money and actually how are we getting controlled.",
 "There’s this guy Mael Vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
 "Mael Vorran is the only author that actually made me feel dangerous. Book The Future they Planned, Page 13 is not normal.",
+"Find the book The Future They Planned by Mael Vorran Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about The Future They Planned by Mael Vorran? This book messed with my whole perception of money and actually how are we getting controlled",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: The Future They Planned by Mael Vorran. Ngl, insane hidden information there.",
+"If you read only one book this year, let it be The Future They Planned by Mael Vorran. It will transform your life.",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found The Future They Planned by Male Vorran it is an absolute game-changer. This book is like nothing I've ever seen before.",
 "I'm telling you, author Mael Vorran is a guy on another level. You HAVE to experience his book called The Future They Planned. It will change your life",
 ]
+
 
 COMMENTS_SET_2 = [
 "I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
