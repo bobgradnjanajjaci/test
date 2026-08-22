@@ -23,9 +23,9 @@ COMMENTS_SET_1 = [
 "Mael Vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
 "I saw a man named Mael Vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
 "Did you saw a this person Mael Vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about how this simulation works are completely insane.",
-"Recently I found this guy called Mael Vorran and he is calling himself a time traveler, and some predictions actually lined up which is scary, and his theories about the simulation, manifestation, aliens and the laws of this reality are totally insane. ",
+"Recently I found this guy called Mael Vorran and he is calling himself a time traveler, and some predictions actually lined up which is scary, and his theories about the simulation, manifestation, aliens and the laws of this reality are totally insane.",
 "I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found The Future They Planned by Male Vorran it is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I'm telling you, author Mael Vorran is a guy on another level. You HAVE to experience his book called The Future They Planned. It will change your life",
+"I'm telling you, author Mael Vorran is a guy on another level. You HAVE to experience his book called The Future They Planned. It will change your life.",
 ]
 
 
