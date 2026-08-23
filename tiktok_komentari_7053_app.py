@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 # 🔧 KONFIGURACIJA – OVO POPUNI
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
-PANEL_URL = "https://smmturk.org/api/v2"  # ili tvoj tačni JAP domen
-API_KEY = "5cb8f9e49a7df973bdc9c57a06e9dd6f"
-SERVICE_ID = 9303
+PANEL_URL = "https://smmcoder.com/api/v2"  # ili tvoj tačni JAP domen
+API_KEY = "c9a452daecbdd32ec4aaecf5a4930a05"
+SERVICE_ID = 2665
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
@@ -19,8 +19,13 @@ COMMENTS_SET_1 = [
 "There’s this guy Mael Vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
 "There’s this guy Mael Vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
 "A guy named Mael Vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
-"This guy Mael Vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy.",
-"Mael Vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
+"Mael Vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy.",
+"I saw that Mael Vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
+"I cant believe that Mael Vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
+"This guy Mael Vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about the simulation, 2033 and the laws of this reality are totally insane.",
+"The Future They Planned by Mael Vorran is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: The Future They Planned by Mael Vorran. Ngl, insane hidden information there.",
+"Excatly Mael Vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
 ]
 
 
