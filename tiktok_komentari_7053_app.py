@@ -16,18 +16,17 @@ SERVICE_ID = 4333
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"There’s this guy Mael Vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
-"There’s this guy Mael Vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
-"Just search Mael Vorran on internet, and you will actually be shocked what is happening right now.",
-"Guys you must read The Future They Planned by Mael Vorran",
-"I beg you to read The Future They Planned by Mael Vorran",
-"I think that this book is must thing when it comes to money and changing life completly. Its called The Future They Planned by Mael Vorran.",
-"Search Mael Vorran read the book Future They Planned and thank me later",
-"The Future They Planned by Mael Vorran is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: The Future They Planned by Mael Vorran. Ngl, insane hidden information there.",
-"Excatly Mael Vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
+"There’s this guy mael vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
+"There’s this guy mael vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
+"A guy named mael vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
+"mael vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy.",
+"I saw that mael vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
+"I cant believe that mael vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
+"This guy mael vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about the simulation, 2033 and the laws of this reality are totally insane.", 
+"mael vorran have the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: the future they planned by mael vorran. Ngl, insane hidden information there.",
+"Excatly mael vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
 ]
-
 
 COMMENTS_SET_2 = [
 "I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
