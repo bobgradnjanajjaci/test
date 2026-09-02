@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 # 🔧 KONFIGURACIJA – OVO POPUNI
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
-PANEL_URL = "https://smmapro.com/api/v2"  # ili tvoj tačni JAP domen
-API_KEY = "2d600d9b3a80494073625796818b3c06"
-SERVICE_ID = 6682
+PANEL_URL = "https://topsfollows.com/api/v2"  # ili tvoj tačni JAP domen
+API_KEY = "90bceb203560871ed2eb76d7108c4dde"
+SERVICE_ID = 4333
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
