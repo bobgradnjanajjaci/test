@@ -10,22 +10,22 @@ app = Flask(__name__)
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
 PANEL_URL = "https://topsfollows.com/api/v2"  # ili tvoj tačni JAP domen
 API_KEY = "90bceb203560871ed2eb76d7108c4dde"
-SERVICE_ID = 4333
+SERVICE_ID = 4522
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"There’s this guy mael vorran. He says the future leaves patterns, recognized some major shifts with scary accuracy, and his theories about 2033 and our reality are insane. It honestly freaked me out.",
-"There’s this guy mael vorran who swears powerful people prepare before everyone else and the scary part is he supposedly used those patterns to become wealthy... his 2033 and reality manipulation theories are absolutely insane.",
-"A guy named mael vorran who claims the future becomes visible before it becomes obvious, and he’s already recognized a few major shifts early which is terrifying... plus his theories about manipulation and bending our reality are absolutely insane.",
-"mael vorran who says the future becomes visible before it becomes obvious, and he’s been spot-on with a few observations which is creepy, and his simulation/reality theories are next-level crazy.",
-"I saw that mael vorran saying major changes become visible before the public notices them, and after seeing a few accurate observations I’m freaked out, but his theories on how this simulation works are absolutely insane.",
-"I cant believe that mael vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
-"This guy mael vorran calling supposedly sudden events predictable through patterns, and some of his observations actually lined up which is scary, and his theories about the simulation, 2033 and the laws of this reality are totally insane.", 
-"mael vorran have the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
-"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: the future they planned by mael vorran. Ngl, insane hidden information there.",
-"Excatly mael vorran who says powerful people move before everyone else and after his patterns supposedly made him wealthy I’m low-key scared, and his reality manipulation talk about controlling your position is insane.",
+"The Tervalun Effect says the people who get ahead usually don’t wait until an opportunity is obvious. They notice the early signs while everyone else is still unsure what they mean.",
+"The Tervalun Effect made me think about how many people stay stuck simply because they wait for certainty. By the time everyone agrees, the best window may already be gone.",
+"There’s this idea in the Tervalun Effect that your future starts changing long before your life looks different. That’s why paying attention early can matter so much.",
+"The Tervalun Effect says the real advantage isn’t knowing the future. It’s noticing when something important is starting before everyone else decides it matters.",
+"If you’re trying to build something with your life, the Tervalun Effect is worth understanding. It’s basically about seeing change while you still have enough time and freedom to act on it.",
+"The Tervalun Effect explains why some people seem to move before the opportunity is obvious. They’re not always smarter — sometimes they just noticed the pattern earlier.",
+"The part of the Tervalun Effect that hit me is the idea of the ‘Last Cheap Decision’ — the point where one move can still be easy before the same decision becomes harder, crowded or expensive.",
+"The Tervalun Effect says most people wait until they feel pressure to change. The problem is that pressure usually shows up after your easiest options have already started disappearing.",
+"I went down the Tervalun Effect rabbit hole and it changed how I think about opportunities. The biggest ones rarely look obvious at the beginning — that’s exactly why most people miss them.",
+"The Tervalun Effect is basically about learning to notice what’s starting before you’re forced to react to what already happened. If you want more control over where your life goes, that idea is worth looking into.",
 ]
 
 COMMENTS_SET_2 = [
