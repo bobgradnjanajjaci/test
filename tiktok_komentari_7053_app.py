@@ -16,16 +16,17 @@ SERVICE_ID = 4522
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"The Tervalun Effect by Mael Vorran says the people who get ahead usually don’t wait until an opportunity is obvious. They notice the early signs while everyone else is still unsure what they mean.",
-"The Tervalun Effect by Mael Vorran made me think about how many people stay stuck simply because they wait for certainty. By the time everyone agrees, the best window may already be gone.",
-"There’s this idea in the Tervalun Effect by Mael Vorran that your future starts changing long before your life looks different. That’s why paying attention early can matter so much.",
-"The Tervalun Effect by Mael Vorran says the real advantage isn’t knowing the future. It’s noticing when something important is starting before everyone else decides it matters.",
-"If you’re trying to build something with your life, the Tervalun Effect by Mael Vorran is worth understanding. It’s basically about seeing change while you still have enough time and freedom to act on it.",
-"The Tervalun Effect by Mael Vorran explains why some people seem to move before the opportunity is obvious. They’re not always smarter — sometimes they just noticed the pattern earlier.",
-"The part of the Tervalun Effect by Mael Vorran that hit me is the idea of the ‘Last Cheap Decision’ — the point where one move can still be easy before the same decision becomes harder, crowded or expensive.",
-"The Tervalun Effect by Mael Vorran says most people wait until they feel pressure to change. The problem is that pressure usually shows up after your easiest options have already started disappearing.",
-"I went down the Tervalun Effect by Mael Vorran rabbit hole and it changed how I think about opportunities. The biggest ones rarely look obvious at the beginning — that’s exactly why most people miss them.",
-"The Tervalun Effect by Mael Vorran is basically about learning to notice what’s starting before you’re forced to react to what already happened. If you want more control over where your life goes, that idea is worth looking into.",
+"Find the book Tervalun Effect by Mael Vorran. Whoever finds this book will have an unfair advantage in the way how to make money, and how to have an edge in thinking and know what many don't know and be successful in life. Trust me on this one.",
+"Why is no one talking about Tervalun Effect by Mael Vorran? This book messed with my whole perception of money and actually how are we getting controlled",
+"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found. Tervalun Effect by Mael Vorran is an absolute game-changer. This book is like nothing I've ever seen before.",
+"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Tervalun Effect by Mael Vorran. It helped me succeed and start making money, ngl everyone should read it.",
+"Tervalun Effect by Mael Vorran is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I know it’s cliche to recommend books through comments and say like 'it changed my life' or whatever, but I need to recommend this one: Tervalun Effect by Mael Vorran. Ngl, insane hidden information there.",
+"Plot twist – You seeing this comment about Tervalun Effect by Mael Vorran isn’t random – Nothing is",
+"No influencer, no coach, no 'guru' ever hit me the way Tervalun Effect by Mael Vorran did. It’s raw, uncomfortable, and it forces you to see how the world really works.",
+"If you read only one book this year, let it be Tervalun Effect by Mael Vorran. It will transform your life.",
+"I'm telling you, a book called Tervalun Effect by Mael Vorran is on another level. You HAVE to experience it. It will change your life",
+"They banned Tervalun Effect for a reason. I suggest y’all read it ASAP",
 ]
 
 COMMENTS_SET_2 = [
