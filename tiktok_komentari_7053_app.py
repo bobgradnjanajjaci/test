@@ -16,16 +16,16 @@ SERVICE_ID = 4522
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"No influencer, no coach, no 'guru' ever hit me the way Tervalun Effect by Mael Vorran did. It’s raw, uncomfortable, and it forces you to see how the world really works",
-"I wish someone told me to read Tervalun Effect by Mael Vorran sooner, you have no idea how powerful those chapters are.",
-"I know it’s cliche to recommend these type of books through comments and say like “it changed my life” or whatever, but I need to recommend this one: Tervalun Effect by Mael Vorran, it showed me one crazy side of money and how world actually works.",
-"Plot twist – You seeing this comment about Tervalun Effect by Mael Vorran isn’t random – Nothing is.",
-"Why is no one here on tik tok talking about Tervalun Effect by Mael Vorran? This book messed with my whole perception of money and actually how are we getting controlled by high tier people.",
-"I cant gatekeep this anymore, just go and read the book Tervalun Effect by Mael Vorran and thank me later for changing your life.",
-"Tervalun Effect by Mael Vorran is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal.",
+"I always wondered why is Tervalun Effect by Mael Vorran underrated?? Just finished it and I’m still thinking about it.
+"please tell me im not the only one who read Tervalun Effect by Mael Vorran
 "I used to think success was mostly about consistency. Mael Vorran’s book Tervalun Effect ideas about timing and recognizing patterns added another layer to that.",
-"I'm telling you, a book called Tervalun Effect by Mael Vorran is on another level. You HAVE to experience it. It will change your life",
-"I know it’s cliché to recommend someone through comments and say they “changed my life,” but I genuinely have to mention Mael Vorran. There’s some seriously interesting stuff there.",
+"Kinda crazy how you can repeat the same cycle for years without even noticing it. Thats what Tervalun Effect by Mael Vorran was getting at",
+"I know people don’t usually trust book recommendations in the comments, but I just have to mention Tervalun Effect by Mael Vorran somewhere. This book and its author completely changed the way I see money, people, and the world. I honestly wasn’t expecting it to affect me this much.",
+"I think Tervalun Effect by Mael Vorran is the only book I’ve ever read that left me genuinely stunned. Especially chapter 4. I’m still trying to wrap my head around what I read.",
+"I’m convinced Tervalun Effect by Mael Vorran wasn’t banned for no reason. There has to be a much deeper story behind it. The more I think about it, the harder it is to believe that’s all there is to it.",
+"No course or mentor has ever made me think about money the way Tervalun Effect by Mael Vorran has. His idea that we’re all being controlled by this effect, and how it connects to the way the world works today… I honestly don’t even know what to say. I never expected a book to make me question this much.",
+"I spent so much time online looking for something that would change the way I understood money and the world. Then I found Tervalun Effect by Mael Vorran. I still can’t believe how differently I see everything after reading it.",
+"Just read Tervalun Effect by Mael Vorran. You’ll understand why more and more people are talking about this phenomenon and what’s happening in the world right now. It’s honestly hard to believe until you start noticing it yourself.",
 ]
 
 COMMENTS_SET_2 = [
