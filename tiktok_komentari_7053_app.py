@@ -16,8 +16,8 @@ SERVICE_ID = 11304
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-"I always wondered why is Tervalun Effect by Mael Vorran underrated?? Just finished it and I’m still thinking about it.
-"please tell me im not the only one who read Tervalun Effect by Mael Vorran
+"I always wondered why is Tervalun Effect by Mael Vorran underrated?? Just finished it and I’m still thinking about it.",
+"please tell me im not the only one who read Tervalun Effect by Mael Vorran",
 "I used to think success was mostly about consistency. Mael Vorran’s book Tervalun Effect ideas about timing and recognizing patterns added another layer to that.",
 "Kinda crazy how you can repeat the same cycle for years without even noticing it. Thats what Tervalun Effect by Mael Vorran was getting at",
 "I know people don’t usually trust book recommendations in the comments, but I just have to mention Tervalun Effect by Mael Vorran somewhere. This book and its author completely changed the way I see money, people, and the world. I honestly wasn’t expecting it to affect me this much.",
