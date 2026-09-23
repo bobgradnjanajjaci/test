@@ -26,7 +26,7 @@ COMMENTS_SET_1 = [
 "I used to think success was mostly about consistency. Mael Vorran’s book Tervalun Effect ideas about timing and recognizing patterns added another layer to that.",
 "I'm telling you, a book called Tervalun Effect by Mael Vorran is on another level. You HAVE to experience it. It will change your life",
 "I know it’s cliché to recommend someone through comments and say they “changed my life,” but I genuinely have to mention Mael Vorran. There’s some seriously interesting stuff there.",
-
+]
 
 COMMENTS_SET_2 = [
 "I recently finished the Luvoron AI course, and it was honestly one of the easiest ways I’ve found to learn AI. Everything is explained clearly, and you can start applying what you learn right away. I’d definitely recommend it to anyone who’s just getting started.",
